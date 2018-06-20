@@ -1,0 +1,38 @@
+
+@import "helpers/_mixins";
+@import "helpers/_variables";
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype") }
+
+body {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.aaa {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bbb {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+
+p {
+  font-family: 'Montserrat-Bold';
+}
+
+@import "helpers/_media";
